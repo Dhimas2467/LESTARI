@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#21170f">
+<meta name="description" content="LESTARI | Kawruh Sejati | Kawruh Urip Sejati | Kawruh Uttamopadesa | Kawruh Kasunyatan">
+<title>LESTARI | Paguyuban Kawruh Uttamopadesa</title>
+
+<style>
+:root {
+--kayu-gelap: #21170f;
+--emas: #c7a66a;
+--emas-terang: #e0c48c;
+--teks: #eee4d2;
+--teks-redup: #c5b69d;
+--garis: rgba(199, 166, 106, 0.35);
+--panel: rgba(25, 18, 12, 0.91);
+}
+
+* {box-sizing: border-box;}
+
+html {scroll-behavior: smooth;}
+
+body {margin: 0; color: var(--teks); font-family: Georgia, "Times New Roman", serif; line-height: 1.75; background-color: var(--kayu-gelap); background-image: repeating-linear-gradient(
+91deg, transparent 0, rgba(0, 0, 0, 0.14) 3px, transparent 8px, rgba(190, 132, 73, 0.07) 14px, transparent 25px),
+repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0, transparent 2px, transparent 8px),
+linear-gradient(115deg, #392719 0%, #21170f 35%, #302015 65%, #1b120c 100%);
+background-attachment: fixed;}
+
+a {color: var(--emas-terang); text-decoration: none;}
+
+a:hover {color: #fff0c9;}
+
+.wadah {width: min(100% - 32px, 1000px); margin: 0 auto;}
+
+.kepala {padding: 38px 16px 28px; text-align: center; background: rgba(15, 10, 7, 0.65); border-bottom: 1px solid var(--garis);}
+
+.kepala h1 {margin: 0; color: var(--emas-terang); font-size: clamp(2rem, 6vw, 3.2rem); letter-spacing: 0.13em; line-height: 1.3; text-shadow: 0 2px 12px #000;}
+
+.kepala p {margin: 9px 0 0; color: var(--teks-redup); font-size: 1rem; letter-spacing: 0.06em;}
+
+main {min-height: 65vh; padding-top: 30px; padding-bottom: 48px;}
+
+.halaman {display: none;}
+
+.halaman:target,
+.halaman.aktif {display: block;}
+
+body:has(.halaman:target) .halaman.aktif:not(:target) {display: none;}
+
+.judul-halaman {margin: 0 0 22px; padding-bottom: 12px; color: var(--emas-terang); font-size: clamp(1.45rem, 4vw, 2rem); border-bottom: 1px solid var(--garis);}
+
+.pengantar {margin-bottom: 32px; padding: 24px; border: 1px solid var(--garis); border-radius: 5px; background: var(--panel);}
+
+.pengantar h2 {margin-top: 0; color: var(--emas-terang); font-size: 1.45rem;}
+
+.pengantar p {margin-bottom: 0;}
+
+.daftar-artikel {display: grid; gap: 20px;}
+
+.kartu-artikel {display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 22px; padding: 18px; border: 1px solid var(--garis); border-radius: 5px; background: var(--panel); box-shadow: 0 5px 18px rgba(0, 0, 0, 0.18);}
+
+.tautan-gambar {display: block;}
+
+.gambar-artikel {display: block; width: 100%; height: 155px; object-fit: cover; border: 1px solid var(--garis); border-radius: 3px; background: #241910;}
+
+.isi-kartu h3 {margin: 0 0 10px; font-size: 1.3rem; line-height: 1.4;}
+
+.isi-kartu p {margin: 0 0 14px; color: var(--teks-redup);}
+
+.tautan-baca {display: inline-block; padding: 5px 13px; border: 1px solid var(--emas); border-radius: 3px; font-size: 0.93rem;}
+
+.tautan-baca:hover {color: var(--kayu-gelap); background: var(--emas-terang);}
+
+.kosong {padding: 20px; color: var(--teks-redup); text-align: center; border: 1px dashed var(--garis);}
+
+.pagination {display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 28px;}
+
+.pagination button {padding: 8px 16px; color: var(--emas-terang); font: inherit; border: 1px solid var(--garis); border-radius: 3px; background: rgba(0, 0, 0, 0.2); cursor: pointer;}
+
+.pagination button:hover:not(:disabled) { background: rgba(199, 166, 106, 0.15);}
+
+.pagination button:disabled {opacity: 0.35; cursor: not-allowed;}
+
+.info-halaman {color: var(--teks-redup); font-size: 0.9rem;}
+
+.daftar-judul {margin: 0; padding-left: 28px;}
+
+.daftar-judul li {padding: 10px 0; border-bottom: 1px solid rgba(199, 166, 106, 0.17);}
+
+.dokumentasi-item {margin-bottom: 15px; padding: 18px 20px; border: 1px solid var(--garis); border-radius: 4px; background: var(--panel);}
+
+.dokumentasi-item h3 {margin: 0 0 8px; font-size: 1.15rem;}
+
+.dokumentasi-item p {margin: 0 0 10px; color: var(--teks-redup);}
+
+.identitas {padding: 24px; border: 1px solid var(--garis); border-radius: 5px; background: var(--panel);}
+
+.identitas h3 {color: var(--emas-terang);}
+
+.tautan-blog {display: inline-block; margin-top: 22px; padding: 9px 16px; border: 1px solid var(--emas); border-radius: 3px;}
+
+#footer-container {margin-top: 10px;}
+
+@media (max-width: 620px) {
+.wadah {width: min(100% - 22px, 1000px);}
+
+.kepala {padding: 30px 12px 22px;}
+
+main {padding-top: 20px;}
+
+.pengantar,
+.identitas {padding: 18px;}
+
+.kartu-artikel {grid-template-columns: 1fr; gap: 14px; padding: 14px;}
+
+.gambar-artikel {height: 200px;}}
+
+@media (prefers-reduced-motion: reduce) {
+*,
+*::before,
+*::after {
+scroll-behavior: auto !important;
+}
+}
+</style>
+</head>
+
+<body>
+<header class="kepala">
+<div class="wadah">
+<h1>L E S T A R I</h1>
+<p>Liling Ening Samongko Tameng Dhiri</p>
+</div>
+</header>
+
+<!-- Menu dan tombol berbagi dimuat oleh navigasi.js -->
+<div id="navigasi-container"></div>
+
+<main class="wadah">
+<section id="beranda" class="halaman aktif">
+
+<h2 class="judul-halaman">Artikel LESTARI</h2>
+
+<div id="artikel-beranda" class="daftar-artikel">
+<p class="kosong">Memuat artikel...</p>
+</div>
+
+<div id="pagination" class="pagination" hidden>
+<button id="tombol-sebelumnya" type="button">‹ Sebelumnya</button>
+<span id="info-halaman" class="info-halaman"></span>
+<button id="tombol-berikutnya" type="button">Berikutnya ›</button>
+</div>
+</section>
+
+<section id="identitas" class="halaman">
+<h2 class="judul-halaman">Identitas LESTARI</h2>
+
+<div class="identitas">
+<h3>LESTARI</h3>
+<p>
+LESTARI merupakan akronim dari <b>Liling Ening Samongko Tameng Dhiri</b>, yang mengandung makna bahwa kesadaran dan kejernihan batin merupakan pelindung utama bagi diri manusia. Falsafah ini menegaskan pentingnya menjadikan kesadaran yang jernih dan batin yang hening sebagai tameng dalam menjalani kehidupan. Dengan demikian, LESTARI tidak sekadar menjadi nama sebuah paguyuban, tetapi juga mencerminkan landasan nilai yang menuntun manusia untuk mengenali, memahami, dan menjaga dirinya melalui kesadaran.
+</p>
+<p>Sebagai wadah paguyuban penghayat kepercayaan, LESTARI berlandaskan ajaran Kawruh Uttamopadesa yang menempatkan kesadaran sebagai unsur penting dalam memahami kehidupan dan menjalani laku keutamaan. Penghayatan terhadap ajaran ini tidak berhenti pada pemahaman kata-kata atau pengetahuan secara intelektual, melainkan diwujudkan melalui aktivitas Cipta, Rasa, dan Karsa dalam kehidupan sehari-hari. Kesadaran dipahami melalui gerak dan aktivitasnya, yakni Sapta Obahing Cipta, Sapta Obahing Rasa, dan Sapta Obahing Karsa.
+</p>
+<p>Dalam kehidupan paguyuban, nilai LESTARI menjadi pengingat bahwa kejernihan Cipta, ketulusan Rasa, dan keutamaan Karsa perlu senantiasa dipelihara. Ketiganya menjadi landasan bagi anggota untuk membangun hubungan yang harmonis dengan diri sendiri, sesama manusia, alam, serta kehidupan secara menyeluruh. Kesadaran yang jernih membantu manusia memahami tindakannya, sedangkan kejernihan batin menjadi pegangan agar setiap tindakan tidak semata-mata didorong oleh kepentingan pribadi, tetapi juga mempertimbangkan kebaikan dan kepatutan.
+</p>
+<p>LESTARI juga menjadi ruang kebersamaan untuk memperdalam penghayatan terhadap Kawruh Uttamopadesa melalui pembelajaran, dialog, dan laku nyata. Setiap anggota diharapkan mampu mengembangkan kesadaran diri secara berkelanjutan tanpa mengabaikan penghormatan terhadap sesama dan perbedaan pandangan.
+</p>
+<p>Dengan demikian, LESTARI mengemban tujuan untuk memelihara dan mengembangkan penghayatan kepercayaan yang berakar pada kejernihan kesadaran, ketulusan batin, dan keutamaan perilaku. Liling Ening Samongko Tameng Dhiri menjadi falsafah yang menegaskan bahwa pelindung sejati manusia bukan semata-mata sesuatu yang berada di luar dirinya, melainkan kesadaran yang jernih dan kejernihan batin yang diwujudkan dalam laku kehidupan.
+</p>
+</div>
+
+<a
+class="tautan-blog"
+href="https://lestari2026.blogspot.com//"
+target="_blank"
+rel="noopener noreferrer"
+>Kunjungi Blog LESTARI ↗</a>
+</section>
+
+<section id="daftar-isi" class="halaman">
+<h2 class="judul-halaman">Daftar Isi</h2>
+<ol id="isi-daftar" class="daftar-judul">
+<li>Memuat daftar artikel...</li>
+</ol>
+
+<a
+class="tautan-blog"
+href="https://lestari2026.blogspot.com//"
+target="_blank"
+rel="noopener noreferrer"
+>Kunjungi Blog LESTARI ↗</a>
+</section>
+
+<section id="dokumentasi" class="halaman">
+<h2 class="judul-halaman">Dokumentasi Artikel</h2>
+<div id="isi-dokumentasi">
+<p class="kosong">Memuat dokumentasi...</p>
+</div>
+</section>
+</main>
+
+<!-- Footer tetap memakai footer.js -->
+<div id="footer-container"></div>
+
+<!-- Data dimuat sebelum navigasi dan footer -->
+<script src="daftar-artikel.js"></script>
+<script src="navigasi.js"></script>
+<script src="footer.js"></script>
+
+<script>
+(function () {
+"use strict";
+
+var artikel = Array.isArray(window.DAFTAR_ARTIKEL)
+? window.DAFTAR_ARTIKEL
+: [];
+
+var artikelPerHalaman = 3;
+var halamanAktif = 1;
+
+var beranda = document.getElementById("artikel-beranda");
+var pagination = document.getElementById("pagination");
+var tombolSebelumnya = document.getElementById("tombol-sebelumnya");
+var tombolBerikutnya = document.getElementById("tombol-berikutnya");
+var infoHalaman = document.getElementById("info-halaman");
+var isiDaftar = document.getElementById("isi-daftar");
+var isiDokumentasi = document.getElementById("isi-dokumentasi");
+
+function buatTautan(judul, url) {
+var tautan = document.createElement("a");
+tautan.href = url || "#";
+tautan.textContent = judul || "Artikel tanpa judul";
+return tautan;
+}
+
+function tampilkanBeranda() {
+beranda.replaceChildren();
+
+if (artikel.length === 0) {
+var kosong = document.createElement("p");
+kosong.className = "kosong";
+kosong.textContent = "Belum ada artikel yang tersedia.";
+beranda.appendChild(kosong);
+pagination.hidden = true;
+return;
+}
+
+var jumlahHalaman = Math.ceil(artikel.length / artikelPerHalaman);
+
+if (halamanAktif > jumlahHalaman) {
+halamanAktif = jumlahHalaman;
+}
+
+var mulai = (halamanAktif - 1) * artikelPerHalaman;
+var artikelHalaman = artikel.slice(
+mulai,
+mulai + artikelPerHalaman
+);
+
+artikelHalaman.forEach(function (item) {
+var kartu = document.createElement("article");
+kartu.className = "kartu-artikel";
+
+if (item.gambar) {
+var tautanGambar = document.createElement("a");
+tautanGambar.href = item.url || "#";
+tautanGambar.setAttribute("aria-label", item.judul || "Baca artikel");
+tautanGambar.className = "tautan-gambar";
+
+var gambar = document.createElement("img");
+gambar.className = "gambar-artikel";
+gambar.src = item.gambar;
+gambar.alt = item.alt || item.judul || "Ilustrasi artikel";
+gambar.loading = "eager";
+
+tautanGambar.appendChild(gambar);
+kartu.appendChild(tautanGambar);
+}
+
+var isi = document.createElement("div");
+isi.className = "isi-kartu";
+
+var judul = document.createElement("h3");
+judul.appendChild(buatTautan(item.judul, item.url));
+
+var ringkasan = document.createElement("p");
+ringkasan.textContent = item.ringkasan || "";
+
+var baca = buatTautan("Baca selengkapnya →", item.url);
+baca.className = "tautan-baca";
+
+isi.append(judul, ringkasan, baca);
+kartu.appendChild(isi);
+beranda.appendChild(kartu);
+});
+
+pagination.hidden = jumlahHalaman <= 1;
+tombolSebelumnya.disabled = halamanAktif <= 1;
+tombolBerikutnya.disabled = halamanAktif >= jumlahHalaman;
+infoHalaman.textContent =
+"Halaman " + halamanAktif + " dari " + jumlahHalaman;
+}
+
+function tampilkanDaftarIsi() {
+isiDaftar.replaceChildren();
+
+if (artikel.length === 0) {
+var itemKosong = document.createElement("li");
+itemKosong.textContent = "Belum ada artikel.";
+isiDaftar.appendChild(itemKosong);
+return;
+}
+
+artikel.forEach(function (item) {
+var baris = document.createElement("li");
+baris.appendChild(buatTautan(item.judul, item.url));
+isiDaftar.appendChild(baris);
+});
+}
+
+function tampilkanDokumentasi() {
+isiDokumentasi.replaceChildren();
+
+if (artikel.length === 0) {
+var kosong = document.createElement("p");
+kosong.className = "kosong";
+kosong.textContent = "Belum ada dokumentasi artikel.";
+isiDokumentasi.appendChild(kosong);
+return;
+}
+
+artikel.forEach(function (item, indeks) {
+var kartu = document.createElement("article");
+kartu.className = "dokumentasi-item";
+
+var judul = document.createElement("h3");
+judul.appendChild(
+buatTautan(
+(indeks + 1) + ". " + (item.judul || "Artikel tanpa judul"),
+item.url
+)
+);
+
+var ringkasan = document.createElement("p");
+ringkasan.textContent = item.ringkasan || "";
+
+var baca = buatTautan("Buka artikel →", item.url);
+baca.className = "tautan-baca";
+
+kartu.append(judul, ringkasan, baca);
+isiDokumentasi.appendChild(kartu);
+});
+}
+
+tombolSebelumnya.addEventListener("click", function () {
+if (halamanAktif > 1) {
+halamanAktif--;
+tampilkanBeranda();
+}
+});
+
+tombolBerikutnya.addEventListener("click", function () {
+var jumlahHalaman = Math.ceil(artikel.length / artikelPerHalaman);
+
+if (halamanAktif < jumlahHalaman) {
+halamanAktif++;
+tampilkanBeranda();
+}
+});
+
+function tampilkanHalamanDariHash() {
+var bagian = window.location.hash.slice(1);
+var halaman = document.querySelectorAll(".halaman");
+var tujuan = bagian
+? document.getElementById(bagian)
+: document.getElementById("beranda");
+
+if (!tujuan || !tujuan.classList.contains("halaman")) {
+tujuan = document.getElementById("beranda");
+}
+
+halaman.forEach(function (item) {
+item.classList.toggle("aktif", item === tujuan);
+});
+}
+
+tampilkanBeranda();
+tampilkanDaftarIsi();
+tampilkanDokumentasi();
+tampilkanHalamanDariHash();
+
+window.addEventListener("hashchange", tampilkanHalamanDariHash);
+})();
+</script>
+</body>
+</html>
