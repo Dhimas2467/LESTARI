@@ -14,6 +14,13 @@ alt: "Ilustrasi Perbaikan Diri",
 ringkasan: "Jalan Perbaikan Diri dalam Kawruh Uttamopadesa melalui pengenalan diri, kejernihan Cipta, ketulusan Rasa, dan keutamaan Karsa."
 },
 {
+judul: "Nawa Prabodha Uttamopadesa",
+url: "nawa-prabodha.html",
+gambar: "nawa-prabodha.jpg",
+alt: "Ilustrasi Nawa Prabodha",
+ringkasan: "Serat Nawaprabodha merupakan bagian dari Kawruh Uttamopadesa yang membahas uraian mengenai perjalanan manusia dalam mengembangkan kejernihan diri melalui sembilan tataran."
+},
+{
 judul: "Kesadaran, Cipta, Rasa dan Karsa",
 url: "kesadaran.html",
 gambar: "kesadaran.jpg",
