@@ -1,0 +1,69 @@
+
+name: Sitemap Otomatis LESTARI
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositori
+        uses: actions/checkout@v4
+
+      - name: Buat sitemap.xml
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          const base = 'https://dhimas2467.github.io/LESTARI/';
+
+          const source = fs.readFileSync('daftar-artikel.js', 'utf8');
+          const context = { window: {} };
+
+          require('vm').runInNewContext(source, context);
+
+          const articles = context.window.DAFTAR_ARTIKEL || [];
+
+          const urls = [
+            base,
+            new URL('dokumentasi.html', base).href,
+            ...articles.map(article => new URL(article.url, base).href)
+          ];
+
+          const uniqueUrls = [...new Set(urls)];
+
+          const xmlEscape = value => String(value).replace(/[<>&"']/g, c => ({
+            '<': '&lt;',
+            '>': '&gt;',
+            '&': '&amp;',
+            '"': '&quot;',
+            "'": '&apos;'
+          })[c]);
+
+          const xml = `<?xml version="1.0" encoding="UTF-8"?>
+          <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          ${uniqueUrls.map(url => `  <url><loc>${xmlEscape(url)}</loc></url>`).join('\n')}
+          </urlset>
+          `;
+
+          fs.writeFileSync('sitemap.xml', xml);
+          console.log(`Sitemap dibuat: ${uniqueUrls.length} URL`);
+          NODE
+
+      - name: Simpan sitemap
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Perbarui sitemap [skip ci]"
+            git push
+          fi
