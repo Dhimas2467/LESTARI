@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="gaya-artikel.css">
+<title>NAWA PANGAWIKANING DHIRI</title>
+<meta name="description" content="Nawa Pangawikaning Dhiri merupakan bagian dari Kawruh Uttamopadesa, merupakan sembilan tataran laku untuk mengenali diri secara bertahap.">
+<meta name="author" content="Dhimas Purnomo, SH">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://dhimas2467.github.io/LESTARI/pangawikaning-dhiri.html">
+
+<style>
+:root {
+--kayu:#21150f;
+--kayu-gelap:#160f0b;
+--kayu-terang:#382519;
+--teks:#e9e0d0;
+--emas:#c49a52;
+--hijau:#244b3c;
+--panel:rgba(18,13,9,.82);
+--garis:rgba(181,139,89,.4);}
+* {box-sizing:border-box;}
+body {margin:0; background:var(--kayu-gelap); color:var(--teks); font-family:Georgia,"Times New Roman",serif; line-height:1.8;}
+header {background:var(--kayu); color:var(--teks); padding:24px 18px; text-align:center; border-bottom:1px solid var(--garis);}
+header a {color:inherit; text-decoration:none;}
+.brand { margin:0; font-family:Arial,sans-serif; font-size:clamp(1.25rem,4vw,1.8rem); letter-spacing:.08em; font-weight:700;}
+.tagline {margin:5px 0 0; font-family:Arial,sans-serif; font-size:.92rem; color:var(--emas);}
+main {display:block; box-sizing:border-box; width:calc(100% - 32px); max-width:900px; margin:30px auto; padding:clamp(20px,5vw,46px); background:var(--panel); border:1px solid var(--garis); border-radius:12px;}
+.gambar-artikel {display:block; width:min(100%,620px); height:auto; margin:0 auto 26px; border-radius:10px;}
+.isi-artikel p,
+.isi-artikel li {text-align:justify; text-justify:inter-word; line-height:1.85; hyphens:auto;}
+.isi-artikel h1 {font-family:Arial,sans-serif; font-size:clamp(1.65rem,5vw,2.2rem); line-height:1.4; overflow-wrap:break-word; margin:0 0 24px;}
+.isi-artikel h2 {font-family:Arial,sans-serif; font-size:1.35rem; margin:2.1em 0 .7em;}
+.isi-artikel h3 {font-family:Arial,sans-serif; font-size:1.12rem; margin:1.8em 0 .45em;}
+.faq h3 {margin-top:1.3em;}
+.daftar-istilah dt {font-weight:bold; color:var(--emas); margin-top:1.1em;}
+.daftar-istilah dd {margin:0 0 .8em 0; text-align:justify;}
+.tautan-terkait {margin-top:36px; padding-top:22px; border-top:1px solid var(--garis); font-family:Arial,sans-serif;}
+.tautan-terkait p {text-align:left;}
+.tautan-terkait a {color:var(--emas);}
+@media(max-width:520px) {
+main {width:calc(100% - 20px); margin:14px auto; padding:20px 17px;}
+.isi-artikel p {line-height:1.8;}}
+</style>
+</head>
+<body id="top">
+<!-- HEADER SITUS -->
+<header>
+<a href="index.html">
+<p class="brand">L E S T A R I</p>
+<p class="tagline">Liling Ening Samongko Tameng Dhiri</p>
+</a>
+</header>
+<!-- NAVIGASI OTOMATIS -->
+<div id="navigasi-container"></div>
+<script src="navigasi.js"></script>
+<!-- ISI ARTIKEL -->
+<main>
+<article class="isi-artikel">
+
+<h1>NAWA PANGAWIKANING DHIRI</h1>
+
+<img
+class="gambar-artikel"
+src="pangawikan-dhiri.jpg"
+alt="Ilustrasi Pangawikan Dhiri"
+loading="eager">
+
+<p><b>Nawa Pangawikaning Dhiri</b> merupakan sembilan tataran laku untuk mengenali diri secara bertahap melalui pengamatan, mawas dhiri, pembersihan batin, dan pembenahan laku kehidupan.</p>
+
+<p>Dalam Kawruh Uttamopadesa, pengenalan diri tidak berhenti pada pertanyaan “siapa aku?”, tetapi diarahkan kepada pengenalan yang nyata melalui hubungan antara cipta, rasa, karsa, laku, dan Tatananing Panguripan.</p>
+
+<p>Pangawikaning dhiri bukan sekadar kegiatan berpikir mengenai diri sendiri. Manusia dapat memikirkan dirinya sepanjang hidup, tetapi pemikiran mengenai diri belum tentu menunjukkan kasunyatan dirinya. Pemikiran dapat dipengaruhi pengalaman, keinginan, kebiasaan, rasa suka dan tidak suka, bahkan pamrih yang tidak disadari.</p>
+
+<p>Karena itu, Kawruh Uttamopadesa menempatkan pengenalan diri sebagai laku.</p>
+
+<p><b>Aspek Diri</b> dikenali melalui apa yang benar-benar terjadi dalam panguripan: bagaimana raga digunakan, bagaimana indriya menerima keadaan, bagaimana cipta membentuk pemikiran, bagaimana rasa bergerak, bagaimana karsa melahirkan tindakan, bagaimana laku menghasilkan buah, serta bagaimana manusia mengenali berbagai penghalang yang masih menutupi pamawas.</p>
+
+<p>Dari keseluruhan laku tersebut tumbuh keselarasan. Keselarasan itulah yang membuka jalan menuju kesadaran terhadap Jatining Dhiri.</p>
+
+<p>Dengan demikian, <b>Nawa Pangawikaning Dhiri</b>merupakan sembilan tataran laku untuk mengenali diri secara bertahap bukan titik awal yang harus dipercayai terlebih dahulu, melainkan buah luhur dari laku pangawikaning dhiri.</p>
+
+<h2>Hubungan Pangawikaning Dhiri dengan Kawruh Sejati.</h2>
+<p>Dalam kerangka Kawruh Uttamopadesa, manusia perlu membedakan antara Kawruh Sejati dan pemahaman manusia mengenai kasunyatan.</p>
+
+<p>Kawruh Sejati bukan sekadar kumpulan pengetahuan hasil pemikiran manusia. Kawruh Sejati merupakan pepadhang yang menjadi dasar bagi manusia untuk mengenali kasunyatan. Adapun pemahaman manusia terhadap kasunyatan merupakan proses ngaweruhi, yaitu proses memahami, mengolah, menguji, dan mewujudkannya dalam laku.</p>
+
+<p>Karena itu, Pangawikaning Dhiri merupakan bagian dari perjalanan manusia dalam menerima dan mewujudkan pepadhang kawruh tersebut dalam panguripan.</p>
+
+<p>Kawruh tidak cukup hanya diketahui. Kawruh harus kawruhan, kasumurupan, dilakoni, dan akhirnya katon kasunyatane ing panguripan.</p>
+
+<p>Dari sinilah prinsip penting Uttamopadesa dapat dipahami: kawruh yang belum mengubah laku belum sepenuhnya menjadi kawruh yang hidup. Pangawikaning dhiri menjadi jalan untuk melihat perubahan tersebut secara nyata.</p>
+
+<h2>Jatining Dhiri sebagai Buah Laku.</h2>
+<p>Jatining Dhiri tidak dapat ditetapkan hanya berdasarkan pengakuan seseorang mengenai dirinya sendiri. Manusia dapat mengatakan bahwa dirinya telah mengetahui hakikat diri, tetapi kehidupan sehari-hari justru menjadi ukuran apakah pemahaman tersebut benar-benar telah menjadi laku.</p>
+
+<p>Apabila cipta masih dipenuhi keruwetan, rasa masih mudah dikuasai pamrih, karsa masih didorong keinginan yang tidak terawat, dan laku masih menghasilkan pertentangan, maka pangawikaning dhiri masih perlu dilanjutkan.</p>
+
+<p>Sebaliknya, ketika cipta semakin wening, rasa semakin bening, karsa semakin utama, dan laku semakin selaras dengan Tatananing Panguripan, manusia mulai mengenali dirinya secara lebih jernih.</p>
+
+<p>Karena itu, Jatining Dhiri bukan sesuatu yang perlu dibayangkan. Ia semakin dapat dikenali melalui perubahan nyata dalam kehidupan.</p>
+
+<h2>NAWA TATARAN PANGAWIKANING DHIRI.</h2>
+
+<h3>1. <a href="https://lestari2026.blogspot.com/2026/08/mengenali-raga.html">
+Mengenali Raga.
+</a></h3>
+<p>Raga merupakan sarana utama manusia untuk menjalani panguripan. Dengan raga manusia bergerak, bekerja, berhubungan dengan sesama, menerima keadaan, dan melaksanakan berbagai laku kehidupan. Karena itu, pangawikaning dhiri dimulai dari sesuatu yang paling dekat dan paling nyata: raga.</p>
+
+<p>Mengenali raga bukan sekadar mengetahui bentuk tubuh dan kebutuhan jasmani. Yang lebih penting adalah memahami fungsi, keadaan, dan keterbatasan raga.</p>
+
+<p>Raga dapat kuat dan lemah, sehat dan sakit, segar dan lelah. Semua keadaan tersebut merupakan bagian dari perubahan panguripan. Raga tidak berada dalam keadaan yang tetap. Oleh sebab itu, manusia tidak sepatutnya menjadikan raga sebagai satu-satunya dasar pengenalan dirinya.</p>
+
+<p>Raga adalah wahana, sarana untuk menjalani kehidupan, bukan keseluruhan Jatining Dhiri.</p>
+
+<p>Pengenalan terhadap raga juga mengajarkan manusia untuk membedakan kebutuhan dengan keinginan. Kebutuhan perlu dipenuhi agar raga dapat menjalankan fungsinya dengan baik. Sebaliknya, keinginan yang tidak terawat dapat membuat manusia semakin terikat kepada kenikmatan lahiriah.</p>
+
+<p>Raga harus dirawat, tetapi tidak dipertuhankan. Raga harus digunakan, tetapi tidak dibiarkan menjadi penguasa laku. Melalui pengenalan raga, manusia mulai belajar bahwa kehidupan tidak berhenti pada apa yang tampak secara lahiriah. Dari sinilah perjalanan pangawikaning dhiri berlanjut menuju indriya.<p>
+
+<h3>2. <a href="https://lestari2026.blogspot.com/2026/08/mengenali-indriya.html">
+Mengenali Indriya.
+</a></h3>
+<p>Indriya merupakan sarana manusia menerima berbagai tanda dari panguripan. Penglihatan, pendengaran, penciuman, pengecap, dan rasa tubuh memberikan pengalaman yang kemudian diolah dalam cipta.</p>
+
+<p>Namun, apa yang diterima indriya tidak selalu merupakan kasunyatan secara utuh.
+Indriya hanya menerima tanda sesuai dengan kemampuannya. Cipta kemudian memberikan tafsir terhadap tanda tersebut.</p>
+
+<p>Sesuatu yang terlihat indah dapat menimbulkan rasa suka. Kata-kata seseorang dapat menimbulkan rasa senang ataupun marah. Makanan dapat membangkitkan keinginan. Keadaan tertentu dapat menimbulkan rasa nyaman ataupun tidak nyaman.</p>
+
+<p>Karena itu, manusia perlu membedakan antara apa yang diterima indriya dan apa yang kemudian dibentuk oleh cipta.</p>
+
+<p>Mengenali indriya berarti belajar mawas terhadap proses tersebut. Indriya bukan penguasa kehidupan. Indriya merupakan pintu untuk menerima pengalaman. Apa yang masuk melalui pintu tersebut masih perlu diolah dengan cipta yang wening dan rasa yang bening.</p>
+
+<p>Jika manusia langsung mengikuti setiap kesan indriya, kehidupannya mudah dikendalikan oleh apa yang tampak, terdengar, terasa, atau memberikan kenikmatan.</p>
+
+<p>Sebaliknya, apabila indriya digunakan dengan mawas, manusia dapat menerima keadaan tanpa langsung menjadi terikat kepadanya.Dari sini manusia mulai memasuki tataran pengenalan terhadap cipta.</p>
+
+<h3>3. <a href="https://lestari2026.blogspot.com/2026/08/mengenali-cipta.html">Mengenali Cipta.</a></h3>
+<p>Cipta merupakan daya untuk membentuk pemikiran, pertimbangan, angan-angan, dan pemahaman. Apa yang diterima melalui indriya dapat diolah oleh cipta menjadi berbagai pemikiran. Karena itu, cipta memiliki peran besar dalam kehidupan manusia.</p>
+
+<p>Namun, cipta tidak selalu menghasilkan pemahaman yang sesuai dengan kasunyatan. Pemikiran dapat dibentuk oleh pengalaman, kebiasaan, harapan, ketakutan, keinginan, rasa suka, rasa benci, dan berbagai pengaruh lainnya.</p>
+
+<p>Karena itu, mengenali cipta berarti belajar melihat bagaimana sebuah pemikiran muncul dan dari mana pemikiran tersebut berasal. Manusia tidak perlu langsung percaya kepada setiap pemikiran yang muncul dalam dirinya. Namun, manusia juga tidak perlu menolaknya secara tergesa-gesa.</p>
+
+<p>Pemikiran perlu diamati dengan pamawas yang wening. Dengan demikian, manusia mulai dapat membedakan antara kasunyatan dengan tafsir terhadap kasunyatan.</p>
+
+<p>Kasunyatan tidak berubah hanya karena manusia memikirkannya secara berbeda. Yang perlu dibenahi adalah cara manusia melihat dan memahami kasunyatan.</p>
+
+<p>Cipta yang wening tidak berarti cipta berhenti berpikir. Cipta yang wening adalah cipta yang mampu berpikir tanpa dikuasai oleh pikirannya sendiri. Ketika cipta semakin wening, jalan menuju pengenalan rasa mulai terbuka.</p>
+
+<h3>4. <a href="https://lestari2026.blogspot.com/2026/09/mengenali-rasa.html">Mengenali Rasa.</a></h3>
+<p>Rasa memberikan warna pada pengalaman kehidupan. Melalui rasa manusia mengalami kegembiraan, kesedihan, ketenteraman, kekhawatiran, kasih, kebencian, ketakutan, dan berbagai gerak batin lainnya.</p>
+
+<p>Rasa merupakan bagian penting dari panguripan. Karena itu, pangawikaning dhiri tidak mengajarkan manusia untuk meniadakan rasa. Yang perlu dilakukan adalah mengenali rasa tanpa menjadi budaknya.</p>
+
+<p>Rasa dapat berubah mengikuti keadaan. Rasa senang dapat berubah menjadi kecewa. Rasa takut dapat berubah menjadi keberanian. Rasa benci dapat berubah ketika manusia memperoleh pemahaman baru.</p>
+
+<p>Karena rasa selalu bergerak, manusia perlu belajar mengamatinya.Ketika rasa muncul, manusia tidak harus langsung mengikutinya.</p>
+
+<p>Rasa suka tidak selalu berarti sesuatu itu harus dikejar. Rasa tidak suka tidak selalu berarti sesuatu itu harus ditolak. Rasa takut tidak selalu berarti keadaan harus dihindari.</p>
+
+</p>Rasa yang bening bukan rasa yang kosong, melainkan rasa yang tidak lagi dikaburkan oleh keterikatan, pamrih, dan keinginan yang tidak terawat.</p>
+
+<p>Rasa yang bening memberikan ruang bagi cipta untuk melihat dengan lebih jernih dan bagi karsa untuk menentukan arah laku dengan lebih tepat. Dari sinilah pangawikaning dhiri memasuki tataran karsa.</p>
+
+<h3>5. <a href="https://lestari2026.blogspot.com/2026/09/mengenali-karsa.html">Mengenali Karsa.</a></h3>
+<p>Karsa merupakan daya yang menggerakkan kehendak dan melahirkan tindakan. Jika cipta berhubungan dengan pemikiran dan rasa berhubungan dengan gerak rasa, maka karsa menunjukkan bagaimana manusia menentukan arah kehendaknya. Karena itu, mengenali karsa berarti melihat apa yang sebenarnya menggerakkan suatu tindakan.</p>
+
+<p>Sebuah tindakan dapat terlihat baik dari luar, tetapi belum tentu memiliki dasar karsa yang baik. Tindakan dapat dilakukan karena kasih, tetapi dapat pula dilakukan karena ingin dipuji. Seseorang dapat membantu sesama karena ketulusan, tetapi dapat pula karena ingin memperoleh pengakuan.</p>
+
+<p>Karena itu, pangawikaning dhiri tidak hanya melihat apa yang dilakukan, tetapi juga melihat dasar kehendak yang melahirkan tindakan tersebut. Manusia perlu mawas:
+Apa yang sebenarnya mendorong laku ini?</p>
+
+<p>Apakah karsa tersebut lahir dari cipta yang wening dan rasa yang bening? Ataukah masih dipengaruhi pamrih, kesombongan, ketakutan, kebencian, atau keinginan untuk menguasai?</p>
+
+<p>Karsa yang utama tidak berarti manusia kehilangan kehendak. Karsa yang utama adalah kehendak yang semakin selaras dengan Tatananing Panguripan. Ketika karsa telah dikenali, manusia perlu melihat hasil nyatanya melalui laku.</p>
+
+<h3>6. <a href="https://lestari2026.blogspot.com/2026/09/mengenali-laku.html">Mengenali Laku.</a></h3>
+<p>Laku merupakan wujud nyata dari cipta, rasa, dan karsa. Apa yang dipikirkan, dirasakan, dan dikehendaki pada akhirnya akan memiliki jejak dalam kehidupan. Jejak tersebut dapat terlihat melalui ucapan, tindakan, pekerjaan, hubungan dengan sesama, serta cara manusia menghadapi berbagai keadaan.</p>
+
+<p>Karena itu, laku menjadi salah satu cermin paling nyata dalam pangawikaning dhiri. Manusia dapat membangun gambaran mengenai dirinya melalui pikiran dan kata-kata. Namun, laku sehari-hari menunjukkan bagaimana pemahaman tersebut benar-benar bekerja.</p>
+
+<p>Laku yang menimbulkan keruwetan menunjukkan adanya sesuatu yang masih perlu dibenahi. Laku yang menghadirkan ketenteraman, manfaat, kasih, dan keselarasan menjadi tanda bahwa cipta, rasa, dan karsa mulai tertata.</p>
+
+<p>Mengenali laku bukan berarti terus-menerus menyalahkan diri. Mawas laku berarti berani melihat buah tindakan secara jujur, menerima pelajaran darinya, kemudian memperbaiki apa yang masih belum selaras.</p>
+
+<p>Dalam Uttamopadesa, kawruh dan laku tidak dapat dipisahkan. Kawruh menuntun laku, dan laku menguji kawruh dalam panguripan. Karena itu, laku menjadi jembatan antara pemahaman dengan kasunyatan kehidupan.</p>
+
+<p>Dari pengamatan terhadap laku, manusia mulai dapat melihat penghalang yang masih tersembunyi dalam dirinya.</p>
+
+<h3>7. <a href="https://lestari2026.blogspot.com/2026/09/mengenali-penghalang.html">Mengenali Penghalang.</a></h3>
+<p>Penghalang merupakan segala sesuatu dalam diri yang menutupi pamawas terhadap kasunyatan dan menghambat keselarasan laku. Penghalang tidak selalu tampak secara lahiriah. Bahkan, penghalang sering kali bersembunyi di balik sesuatu yang dianggap benar oleh manusia.</p>
+
+<p>Kesombongan dapat membuat seseorang merasa tidak perlu belajar. Keterikatan dapat membuat manusia sulit menerima perubahan. Ketakutan dapat membuat manusia enggan menghadapi kasunyatan. Kebencian dapat mengaburkan pandangan. Keinginan yang tidak terawat dapat membuat manusia terus mengejar sesuatu tanpa mengenali batas.</p>
+
+<p>Penghalang juga dapat berupa keterikatan terhadap pemikiran sendiri. Manusia dapat begitu yakin terhadap pandangannya sehingga tidak lagi mampu melihat keadaan sebagaimana adanya.
+Karena itu, penghalang tidak diselesaikan dengan memusuhi diri sendiri. Penghalang perlu dikenali, dipahami, dan diolah melalui mawas dhiri.</p>
+
+<p>Ketika seseorang mampu melihat kesombongannya tanpa membenarkannya, melihat keterikatannya tanpa menyembunyikannya, dan melihat pamrihnya tanpa menutup-nutupinya, maka penghalang mulai kehilangan kekuatannya.</p>
+
+<p>Cahaya kawruh tidak tumbuh melalui paksaan, tetapi melalui keweningan dalam melihat keadaan. Semakin penghalang berkurang, semakin terbuka jalan menuju keselarasan.</p>
+
+<h3>8. <a href="https://lestari2026.blogspot.com/2026/09/mengenali-keselarasan.html">Mengenali Keselarasan.</a></h3>
+<p>Keselarasan merupakan keadaan ketika cipta, rasa, karsa, dan laku tidak lagi berjalan saling bertentangan. Cipta yang wening memberikan kejernihan. Rasa yang bening memberikan ketenangan. Karsa yang utama memberikan arah. Laku kemudian mewujudkan semuanya dalam panguripan.</p>
+
+<p>Keselarasan bukan berarti kehidupan tidak pernah mengalami keruwetan. Manusia tetap menghadapi perubahan, kehilangan, perbedaan, kegagalan, dan berbagai keadaan yang tidak selalu sesuai dengan kehendaknya. Yang berubah adalah cara manusia menghadapinya.</p>
+
+<p>Ketika keselarasan mulai tumbuh, manusia tidak mudah kehilangan kejernihan hanya karena keadaan berubah. Kebahagiaan tidak membuatnya berlebihan dalam kesombongan, sedangkan keruwetan tidak membuatnya kehilangan arah. Keselarasan juga tidak berhenti pada diri sendiri.</p>
+
+<p>Manusia hidup bersama sesama, alam, dan berbagai keadaan dalam panguripan. Karena itu, keselarasan harus terlihat dalam hubungan dan tindakan.</p>
+
+<p>Cipta, rasa, dan karsa yang benar-benar
+selaras akan menemukan wujudnya dalam laku yang menjaga kehidupan, menghormati sesama, dan tidak menciptakan keruwetan yang sebenarnya dapat dihindari.</p>
+
+</p>Pada tataran inilah pangawikaning dhiri mulai memasuki kedalaman terakhir: mengenali Jatining Dhiri.
+
+<h3>9. <a href="https://lestari2026.blogspot.com/2026/09/mengenali-jatining-dhiri.html">Mengenali Jatining Dhiri.</a></h3>
+<p>Mengenali Jatining Dhiri merupakan tataran terakhir Nawa Pangawikaning Dhiri. Namun, “terakhir” tidak berarti sebuah akhir perjalanan. Jatining Dhiri merupakan buah dari laku yang telah dijalani melalui tataran-tataran sebelumnya.</p>
+
+<p>Manusia telah belajar mengenali raga, indriya, cipta, rasa, karsa, laku, penghalang, dan keselarasan. Dari seluruh proses tersebut, pandangan terhadap dirinya semakin jernih.</p>
+
+<p>Jatining Dhiri tidak dapat disamakan dengan raga, sebab raga selalu berubah. Jatining Dhiri juga tidak dapat disamakan dengan pemikiran, sebab pemikiran dapat berubah. Jatining Dhiri bukan pula gerak rasa yang selalu mengalami perubahan.</p>
+
+<p>Karena itu, pengenalan terhadap Jatining Dhiri tidak dicapai dengan melekatkan diri kepada salah satu keadaan yang berubah tersebut.</p>
+
+<p>Jatining Dhiri mulai dikenali ketika manusia tidak lagi tertutup oleh keruwetan cipta, keterikatan rasa, dan karsa yang tidak terawat.</p>
+
+<p>Cipta menjadi wening. Rasa menjadi bening. Karsa menjadi utama. Laku menjadi selaras.</p>
+
+<p>Pada keadaan demikian, cahaya kawruh semakin nyata dalam kehidupan. Mengenali Jatining Dhiri bukan berarti seseorang merasa telah mencapai kesempurnaan. Justru semakin dalam pangawikane, semakin tumbuh andhap asor.</p>
+
+<p>Manusia tidak lagi membutuhkan pengakuan bahwa dirinya telah mengetahui. Pengetahuan mulai terlihat melalui laku: semakin bijaksana, semakin kasih, semakin jujur terhadap diri sendiri, dan semakin mampu menjaga keselarasan dalam panguripan.</p>
+
+<p>Dengan demikian, Jatining Dhiri bukan sesuatu yang perlu diumumkan sebagai pencapaian. Ia lebih tepat dikenali melalui cara manusia menjalani kehidupan.</p>
+
+<h2>Nawa Pangawikaning Dhiri sebagai Pedoman Laku Panguripan.</h2>
+<p>Kesembilan tataran tersebut bukanlah sembilan pengetahuan yang berdiri sendiri.
+
+Urutannya menunjukkan pendalaman:</p>
+
+<p><b>Raga → Indriya → Cipta → Rasa → Karsa → Laku → Penghalang → Keselarasan → Jatining Dhiri.</b><p>
+
+<p>Raga menunjukkan wahana. Indriya menunjukkan pintu penerimaan pengalaman. Cipta menunjukkan proses pemikiran. Rasa menunjukkan gerak batin. Karsa menunjukkan arah kehendak. Laku menunjukkan perwujudan nyata.</p>
+
+<p>Penghalang menunjukkan apa yang masih menutupi kasunyatan. Keselarasan menunjukkan mulai menyatunya seluruh unsur tersebut. Jatining Dhiri menjadi buah pengenalan yang telah diwujudkan dalam laku.</p>
+
+<p>Dengan susunan demikian, Nawa Pangawikaning Dhiri bukan sekadar perjalanan dari “tidak tahu” menjadi “tahu”. Lebih dalam daripada itu, ia merupakan perjalanan dari tidak mawas menjadi mawas, dari keruh menjadi wening, dari tidak selaras menjadi selaras.</p>
+
+<h2>Pangawikaning Dhiri dan Tatananing Panguripan.</h2>
+<p>Tujuan pengenalan diri dalam Uttamopadesa tidak berhenti pada kepentingan pribadi. Manusia mengenali dirinya agar mampu menempatkan dirinya secara benar dalam panguripan.</p>
+
+<p>Karena itu, semakin dalam pangawikaning dhiri, seharusnya semakin kuat pula kesadaran mengenai kedudukan manusia dalam Tatananing Panguripan. Pengenalan diri yang hanya membuat manusia semakin sibuk memikirkan dirinya sendiri belum menunjukkan keseluruhan laku.</p>
+
+<p>Pangawikaning dhiri harus membawa manusia kembali kepada kehidupan. Kawruh harus menjadi laku. Laku harus menghasilkan buah. Buah laku harus dapat dirasakan dalam hubungan dengan sesama dan lingkungan kehidupan.</p>
+
+<p>Dengan demikian, pangawikaning dhiri bukan pelarian dari kehidupan, tetapi pendalaman cara menjalani kehidupan.</p>
+
+<h2>Kawruh Sejati, Kawruh Kasunyatan, dan Pangawikaning Dhiri.</h2>
+<p>Dalam kerangka Uttamopadesa, terdapat perbedaan antara pepadhang Kawruh Sejati dengan pemahaman manusia mengenai kasunyatan. Kawruh Sejati merupakan pepadhang. Kawruh Kasunyatan merupakan pemahaman manusia terhadap kasunyatan.</p>
+
+<p>Sedangkan Pangawikaning Dhiri merupakan laku manusia untuk mengenali dirinya melalui proses mawas, membersihkan cipta, menjernihkan rasa, memuliakan karsa, dan membenahi laku. Karena itu, ketiganya tidak sepatutnya dicampuradukkan. Manusia tidak menciptakan Kawruh Sejati hanya dengan berpikir.</p>
+
+<p>Manusia berusaha ngaweruhi kasunyatan melalui pamawas yang semakin wening.
+Kemudian pemahaman tersebut diuji melalui laku. Di sinilah Kawruh Uttamopadesa menjadi kawruh yang hidup: bukan hanya dipahami, tetapi diwujudkan dalam panguripan.</p>
+
+<p>Buah Nawa Pangawikaning Dhiri.Buah utama Nawa Pangawikaning Dhiri bukanlah banyaknya istilah yang dapat disebutkan, bukan pula kemampuan berbicara mengenai hakikat diri. Buahnya adalah perubahan kehidupan.</p>
+
+<p>Cipta menjadi lebih wening. Rasa menjadi lebih bening. Karsa menjadi lebih utama. Laku menjadi lebih selaras. Pamrih semakin dapat dikenali. Kesombongan semakin dapat ditinggalkan.</p>
+
+<p>Keterikatan semakin dapat dilihat. Kasih semakin tumbuh. Andhap asor semakin kuat. Manusia semakin mampu menerima perubahan tanpa kehilangan kejernihan. Itulah sebabnya ukuran pangawikaning dhiri berada pada laku.</p>
+
+<p>Seseorang tidak menjadi lebih mengenal dirinya hanya karena mampu menjelaskan Jatining Dhiri dengan panjang lebar. Pengenalan menjadi nyata ketika pemahaman tersebut mengubah cara berpikir, cara merasa, cara berkehendak, dan cara bertindak.</p>
+
+<h2>Penutup.</h2>
+<p>Nawa Pangawikaning Dhiri merupakan sembilan tataran laku pengenalan diri dalam Kawruh Uttamopadesa. Laku tersebut dimulai dari pengenalan terhadap raga dan indriya, kemudian masuk kepada cipta, rasa, dan karsa, diwujudkan melalui laku, dibersihkan dari berbagai penghalang, diselaraskan dengan Tatananing Panguripan, hingga akhirnya manusia mulai mengenali Jatining Dhiri.</p>
+
+<p>Jatining Dhiri bukan awal dari laku.
+Jatining Dhiri merupakan buah dari laku.
+Karena itu, manusia tidak perlu tergesa-gesa mencari pengakuan mengenai siapa dirinya. Yang lebih penting adalah terus mawas terhadap kehidupan yang sedang dijalani.</p>
+
+<p>Apakah cipta semakin wening?
+Apakah rasa semakin bening?
+Apakah karsa semakin utama?
+Apakah laku semakin selaras?
+Apakah pamrih semakin dapat dikenali?
+Apakah kasih semakin tumbuh?
+Apakah kehidupan semakin memberikan manfaat bagi sesama dan lingkungan?</p>
+
+<p>Pertanyaan-pertanyaan tersebut membawa pangawikaning dhiri kembali kepada kehidupan nyata.</p>
+
+<p>Pada akhirnya, pengenalan diri bukan sekadar menemukan sebuah jawaban mengenai “siapa aku”, melainkan menjalani proses hingga kabut yang menutupi pamawas semakin sirna. Ketika cipta wening, rasa bening, karsa utama, dan laku selaras dengan Tatananing Panguripan, maka cahaya kawruh semakin nyata dalam kehidupan.</p>
+
+<p>Dengan demikian, Nawa Pangawikaning Dhiri bukan sekadar piwulang untuk diketahui, tetapi laku untuk dijalani. Dan ketika kawruh telah menjadi laku, pengenalan terhadap diri tidak lagi hanya menjadi pemikiran, melainkan menjadi bagian nyata dari panguripan.</p>
+
+<section class="faq" aria-labelledby="faq-title">
+<h2 id="faq-title">FAQ – Nawa Pangawikaning Dhiri.>/h2>
+
+<h3>1. Apa yang dimaksud Nawa Pangawikaning Dhiri?</h3>
+<p>Nawa Pangawikaning Dhiri adalah sembilan tataran laku pengenalan diri menurut Kawruh Uttamopadesa, mulai dari mengenali raga hingga mengenali Jatining Dhiri.</p>
+
+<h3>2. Apa tujuan Nawa Pangawikaning Dhiri?</h3>
+<p>Tujuannya bukan sekadar mengetahui siapa diri sendiri, tetapi membersihkan cipta, menjernihkan rasa, memuliakan karsa, membenahi laku, dan menyelaraskan kehidupan dengan Tatananing Panguripan.</p>
+
+<h3>3. Mengapa Nawa Pangawikaning Dhiri dimulai dari raga?</h3>
+<p>Karena raga merupakan wahana manusia untuk menjalani panguripan. Dengan mengenali raga, manusia mulai memahami fungsi sekaligus keterbatasan dirinya secara nyata.</p>
+
+<h3>4. Apakah raga merupakan Jatining Dhiri?</h3>
+<p>Bukan. Raga merupakan wahana panguripan yang selalu berubah. Karena itu, raga tidak dapat disamakan dengan Jatining Dhiri.</p>
+
+<h3>5. Mengapa indriya perlu dikenali?</h3>
+<p>Indriya merupakan sarana menerima tanda-tanda dari lingkungan. Namun, apa yang diterima indriya belum tentu menunjukkan kasunyatan secara utuh sehingga perlu diolah melalui cipta dan rasa yang wening.</p>
+
+<h3>6. Mengapa cipta harus diweningkan?</h3>
+<p>Karena pemikiran manusia dapat dipengaruhi pengalaman, kebiasaan, keinginan, ketakutan, rasa suka, rasa benci, dan harapan. Cipta yang wening membantu manusia membedakan kasunyatan dari tafsir terhadap kasunyatan.</p>
+
+<h3>7. Apa yang dimaksud rasa yang bening?</h3> 
+<p>Rasa yang bening bukan berarti tidak memiliki rasa. Rasa yang bening adalah rasa yang semakin bebas dari pamrih, keterikatan, dan keinginan yang tidak terawat sehingga tidak mengaburkan pamawas terhadap kasunyatan.</p>
+
+<h3>8. Mengapa karsa perlu dikenali?</h3>
+<p>Karena karsa merupakan daya yang menggerakkan kehendak dan tindakan. Dengan mengenali karsa, manusia dapat melihat dasar yang sebenarnya menggerakkan setiap laku.</p>
+</section>
+
+<div class="tautan-terkait">
+<p><strong>Baca juga:</strong></p>
+<p>
+<a href="https://dhimas2467.github.io/LESTARI/kesadaran.html">
+Kesadaran, Cipta, Rasa dan Karsa</a>
+</p>
+<p>
+<a href="--">
+Sejatining Janma Manusa</a>
+</p>
+<p>
+<a href="--">
+Jalan Perbaikan Diri</a>
+</p>
+</div>
+</article>
+</main>
+
+<div id="footer-container"></div>
+<script src="footer.js"></script>
+<a href="#top" id="back-to-top" aria-label="Kembali ke atas" title="Kembali ke atas">↑</a>
+</body>
+</html>
