@@ -7,6 +7,13 @@ alt: "Ilustrasi Pangawikan Dhiri",
 ringkasan: "Nawa Pangawikaning Dhiri merupakan bagian dari Kawruh Uttamopadesa, merupakan sembilan tataran laku untuk mengenali diri secara bertahap."
 },
 {
+judul: "9 Prinsip Memahami Jatining Dhiri",
+url: "memahami-jatining-dhiri.html",
+gambar: "jati-dhiri.jpg",
+alt: "Ilustrasi Jati Dhiri",
+ringkasan: "9 prinsip memahami Jatining Dhiri dalam Kawruh Sejati: hubungan Jiwa, Jiwatman, kesadaran, cipta, rasa, karsa, dan laku kehidupan."
+},
+{
 judul: "Jalan Perbaikan Diri",
 url: "perbaikan-diri.html",
 gambar: "perbaikan-diri.jpg",
